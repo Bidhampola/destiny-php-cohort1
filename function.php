@@ -15,7 +15,7 @@ hand();
 
 
 //functions with params
-function sum($num1,$num2) // $num1, $num2 => parameters(placeholder)
+function sumKraig($num1,$num2) // $num1, $num2 => parameters(placeholder)
 {
     echo ($num1 + $num2 ."\n");
 }
@@ -31,7 +31,16 @@ function sub($a,$b){
     return ($a-$b);
 }
 
+//function that does multiplication
+function multiply($num1,$num2,$num3){
+    return $num1 * $num2 * $num3;
+}
+
 echo sub(8,4);
+
+
+
+//yesturday we looked at functions any questions??
 
 
 ?>
